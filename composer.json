@@ -1,0 +1,19 @@
+{
+    "name": "mihai/weather",
+    "description": "This will show the weather forecast for 5 days",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mihai",
+            "email": "mihai@ecce.uk"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Mihai\\Weather\\": "src/"
+        }
+    }
+}
