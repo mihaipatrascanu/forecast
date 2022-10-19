@@ -10,7 +10,9 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {},
+    "require": {
+        "stevebauman/location": "^6.5"
+    },
     "autoload": {
         "psr-4": {
             "Mihai\\Weather\\": "src/"

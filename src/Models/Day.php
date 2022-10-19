@@ -8,5 +8,11 @@ use Illuminate\Database\Eloquent\Model;
 class Day extends Model
 {
     use HasFactory;
+    public $fillable = [
+        'forecat_ip',
+        'datetime',
+        'temp_max',
+        'temp_min'
+    ];
     
 }

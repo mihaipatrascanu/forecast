@@ -15,9 +15,10 @@ return new class extends Migration
     {
         Schema::create('days', function (Blueprint $table) {
             $table->id();
-            $table->integer('temperature');
-            $table->integer('precipitation');
-            $table->integer('wind');
+            $table->integer('forecast_id');
+            $table->dateTime('datetime');
+            $table->integer('temp_max');
+            $table->integer('temp_min');
             $table->timestamps();
         });
     }

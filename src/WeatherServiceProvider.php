@@ -11,6 +11,7 @@ class WeatherServiceProvider extends ServiceProvider
         $this->loadViewsFrom(__DIR__.'/views', 'weather');
         $this->loadMigrationsFrom(__DIR__.'/database/migrations');
         $this->publishes([__DIR__.'/config/globals.php'=>config_path('globals.php')]);
+        $this->publishes([__DIR__.'/assets/style.css'=>public_path('css/app.css')]);
     }
 
     public function register()

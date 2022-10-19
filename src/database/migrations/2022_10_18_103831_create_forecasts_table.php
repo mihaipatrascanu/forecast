@@ -17,7 +17,6 @@ return new class extends Migration
             $table->id();
             $table->text('ip');
             $table->dateTime('datetime');
-            $table->integer('day_id');
             $table->timestamps();
         });
     }
